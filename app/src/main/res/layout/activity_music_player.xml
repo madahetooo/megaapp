@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".entertainment.MusicPlayer">
+
+    <ImageView
+        android:id="@+id/ivWegz"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/wegz" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivWegz"
+        android:layout_marginTop="@dimen/_10sdp" />
+
+    <ImageView
+        android:id="@+id/ivPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:padding="@dimen/_20sdp"
+        android:src="@drawable/ic_baseline_pause_24"
+        android:contentDescription="@string/pause_image" />
+    <ImageView
+        android:id="@+id/ivPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar"
+        android:layout_toEndOf="@id/ivPause"
+        android:padding="@dimen/_20sdp"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        android:contentDescription="@string/play_image" />
+    <ImageView
+        android:id="@+id/ivStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar"
+        android:layout_toEndOf="@+id/ivPlay"
+        android:padding="@dimen/_20sdp"
+        android:src="@drawable/ic_baseline_stop_circle_24"
+        android:contentDescription="@string/stop_image" />
+</RelativeLayout>

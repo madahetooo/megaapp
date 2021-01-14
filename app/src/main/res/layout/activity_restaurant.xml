@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp"
+    tools:context=".entertainment.RestaurantActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/mega_restaurant_menu"
+        android:textColor="@color/purple_500"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/purple_500" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chk_pizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cheese_pizza" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_30"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/chk_burger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/burger" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_20"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/chk_chicken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fried_chicken" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_35"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/chk_vegetables"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vegetables" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chk_Pepsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pepsi" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/chk_Tea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tea" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/chk_Coffee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/coffee" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_12"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/chk_Anise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/anise" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3_5"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_invoice"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/button_design"
+        android:text="@string/ask_for_invoice"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tx_invoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="@string/and_your_invoice_is"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="4dp"-->
+<!--        android:rotation="90"-->
+<!--        android:layout_marginTop="@dimen/_10sdp"-->
+<!--        android:background="@color/purple_500" />-->
+
+</LinearLayout>
+</ScrollView>

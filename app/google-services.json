@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921301837830",
+    "firebase_url": "https://megaapp-14b1b-default-rtdb.firebaseio.com",
+    "project_id": "megaapp-14b1b",
+    "storage_bucket": "megaapp-14b1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921301837830:android:c11e7e651566711a9c3b87",
+        "android_client_info": {
+          "package_name": "com.yat.megaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921301837830-dbo1u8o5gatdb2g0ujvcljmmm3egkme0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yat.megaapp",
+            "certificate_hash": "0dcfc97a7bfa3ef663c733d5212bd6513962ebf1"
+          }
+        },
+        {
+          "client_id": "921301837830-ni36ss312n9vgn8lk4p2scc24087bqlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX1EqxlgbOHWICqH2NLnwCevEB0i5lD2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921301837830-ni36ss312n9vgn8lk4p2scc24087bqlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

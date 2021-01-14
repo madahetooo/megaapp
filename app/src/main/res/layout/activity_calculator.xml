@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp"
+        tools:context=".tools.CalculatorActivity">
+
+        <ImageView
+            android:id="@+id/iv_home"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/mega_logo"
+            android:src="@drawable/megalogo" />
+
+        <EditText
+            android:id="@+id/et_firstNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_design"
+            android:gravity="center"
+            android:hint="@string/enter_first_number"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/_15sdp" />
+
+        <EditText
+            android:id="@+id/et_secondNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_design"
+            android:gravity="center"
+            android:hint="@string/enter_second_number"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/_15sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_Addition"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="0.25"
+                android:background="@drawable/button_design"
+                android:text="@string/plus"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                tools:ignore="NestedWeights" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_subtraction"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="0.25"
+                android:background="@drawable/button_design"
+                android:text="@string/subtraction"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_multiplication"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="0.25"
+                android:background="@drawable/button_design"
+                android:text="@string/multiplication"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_division"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="0.25"
+                android:background="@drawable/button_design"
+                android:text="@string/division"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/result_is"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_resetValues"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/button_design"
+            android:text="@string/reset_values"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
